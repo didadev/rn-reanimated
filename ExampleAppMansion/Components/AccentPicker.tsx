@@ -14,7 +14,6 @@ const {width: windowWidth} = Dimensions.get('window');
 const gap = 10;
 
 const AccentPicker = ({onPick}) => {
-  console.log(windowWidth);
   return (
     <>
       <Text style={styles.label}>Choose Accent </Text>
