@@ -4,7 +4,9 @@ import InterpolateScrollView from './Youtube/ Reactiive_channel/Interpolate_with
 import InterpolateColors from './Youtube/ Reactiive_channel/interpolateColors/App';
 import PinchGestureHandler from './Youtube/ Reactiive_channel/PinchGestureHandler/App';
 import DoubleTapGesture from './Youtube/ Reactiive_channel/doubleTapgesture/App';
+import CircularProgressBar from './Youtube/ Reactiive_channel/circularProgressbar/App';
+import SwipeToDeleteAnimation from './Youtube/ Reactiive_channel/SwipeToDeleteAnimation/App';
 
-const App = () => <DoubleTapGesture />;
+const App = () => <SwipeToDeleteAnimation />;
 
 export default App;
