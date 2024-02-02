@@ -6,7 +6,8 @@ import PinchGestureHandler from './Youtube/ Reactiive_channel/PinchGestureHandle
 import DoubleTapGesture from './Youtube/ Reactiive_channel/doubleTapgesture/App';
 import CircularProgressBar from './Youtube/ Reactiive_channel/circularProgressbar/App';
 import SwipeToDeleteAnimation from './Youtube/ Reactiive_channel/SwipeToDeleteAnimation/App';
+import RippleEffect from './Youtube/ Reactiive_channel/RippleEffect/App';
 
-const App = () => <SwipeToDeleteAnimation />;
+const App = () => <RippleEffect />;
 
 export default App;
