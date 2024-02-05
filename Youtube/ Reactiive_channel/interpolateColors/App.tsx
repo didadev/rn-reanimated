@@ -28,7 +28,8 @@ const {width, height} = Dimensions.get('window');
 const SIZE = width * 0.7;
 
 type THEME = 'light' | 'dark';
-const App = () => {
+
+const PinchGestureHandlerApp = () => {
   const [theme, setTheme] = useState<THEME>('light');
   const progress = useDerivedValue(() => {
     return theme === 'light' ? 0 : 1;
@@ -80,7 +81,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default PinchGestureHandlerApp;
 
 const styles = StyleSheet.create({
   container: {
