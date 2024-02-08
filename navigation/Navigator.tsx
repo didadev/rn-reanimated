@@ -10,6 +10,8 @@ import CircularProgressBar from '../Youtube/ Reactiive_channel/circularProgressb
 import SwipeToDeleteAnimation from '../Youtube/ Reactiive_channel/SwipeToDeleteAnimation/App';
 import RippleEffect from '../Youtube/ Reactiive_channel/RippleEffect/App';
 import PerspectiveMenu from '../Youtube/ Reactiive_channel/perspectiveMenu/App';
+import SLidingCounter from '../Youtube/ Reactiive_channel/SlidingCounter/App';
+import ClockLoader from '../Youtube/ Reactiive_channel/ClockLoader/App';
 
 import Home from '../Screens/Home';
 
@@ -24,6 +26,8 @@ export const screens = [
   {name: 'Swipe to delete', component: SwipeToDeleteAnimation},
   {name: 'Ripple effect', component: RippleEffect},
   {name: 'Perspective menu', component: PerspectiveMenu},
+  {name: 'Sliding Counter', component: SLidingCounter},
+  {name: 'Clock Loader', component: ClockLoader},
 ];
 
 const Stack = createNativeStackNavigator();
