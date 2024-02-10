@@ -12,7 +12,7 @@ import RippleEffect from '../Youtube/ Reactiive_channel/RippleEffect/App';
 import PerspectiveMenu from '../Youtube/ Reactiive_channel/perspectiveMenu/App';
 import SLidingCounter from '../Youtube/ Reactiive_channel/SlidingCounter/App';
 import ClockLoader from '../Youtube/ Reactiive_channel/ClockLoader/App';
-
+import LayoutAnimations from '../Youtube/ Reactiive_channel/LayoutAnimation/App';
 import Home from '../Screens/Home';
 
 export const screens = [
@@ -28,6 +28,7 @@ export const screens = [
   {name: 'Perspective menu', component: PerspectiveMenu},
   {name: 'Sliding Counter', component: SLidingCounter},
   {name: 'Clock Loader', component: ClockLoader},
+  {name: 'Layout Animation', component: LayoutAnimations},
 ];
 
 const Stack = createNativeStackNavigator();
