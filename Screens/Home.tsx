@@ -7,6 +7,7 @@ const Home = ({navigation}) => {
 
   return (
     <ScrollView
+      contentContainerStyle={{paddingBottom: 100}}
       style={[
         styles.container,
         {
