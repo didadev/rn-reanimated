@@ -14,6 +14,9 @@ import SLidingCounter from '../Youtube/ Reactiive_channel/SlidingCounter/App';
 import ClockLoader from '../Youtube/ Reactiive_channel/ClockLoader/App';
 import LayoutAnimations from '../Youtube/ Reactiive_channel/LayoutAnimation/App';
 import SkeltonAnimationWithMoti from '../Youtube/ Reactiive_channel/SkeltonAnimationWithMoti/App';
+
+import LoginScreenWithAnimation from '../Youtube/CodeWithNomi/LoginScreenAnimation/App';
+
 import Home from '../Screens/Home';
 
 export const screens = [
@@ -31,6 +34,7 @@ export const screens = [
   {name: 'Clock Loader', component: ClockLoader},
   {name: 'Layout Animation', component: LayoutAnimations},
   {name: 'Skelton Animation With Moti', component: SkeltonAnimationWithMoti},
+  {name: 'Login Screen With Animation', component: LoginScreenWithAnimation},
 ];
 
 const Stack = createNativeStackNavigator();
